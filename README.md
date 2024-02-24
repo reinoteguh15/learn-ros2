@@ -32,3 +32,7 @@ Documentation of learning ROS2 with the distro Humble
         ```
         ros2 pkg create package_name --build-type ament_cmake --dependencies rclcpp
         ```
+## Node
+- Node &rarr; a subpart of the application with a single purpose
+-  Application will contain many nodes, will be wrapped in a package
+- Nodes can communicate each other through `topics`, `services`, and `parameters`

@@ -1,0 +1,24 @@
+[1.197s] Invoking command in '/home/reino/Programming/ROS2/learn-ros2/ros2_ws/src/my_python_pkg': PYTHONPATH=/home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/prefix_override:/home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/build install --record /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed
+[1.536s] running egg_info
+[1.537s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[1.538s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[1.538s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[1.538s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[1.539s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[1.541s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[1.542s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[1.542s] running build
+[1.542s] running build_py
+[1.542s] copying my_python_pkg/my_first_python_node.py -> /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg
+[1.542s] running install
+[1.543s] running install_lib
+[1.544s] copying /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg/my_first_python_node.py -> /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg
+[1.545s] byte-compiling /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg/my_first_python_node.py to my_first_python_node.cpython-310.pyc
+[1.546s] running install_data
+[1.546s] running install_egg_info
+[1.549s] removing '/home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.549s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info
+[1.551s] running install_scripts
+[1.576s] Installing py_node script to /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[1.577s] writing list of installed files to '/home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/install.log'
+[1.624s] Invoked command in '/home/reino/Programming/ROS2/learn-ros2/ros2_ws/src/my_python_pkg' returned '0': PYTHONPATH=/home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/prefix_override:/home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/build install --record /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed

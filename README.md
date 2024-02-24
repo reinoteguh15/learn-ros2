@@ -36,3 +36,11 @@ Documentation of learning ROS2 with the distro Humble
 - Node &rarr; a subpart of the application with a single purpose
 -  Application will contain many nodes, will be wrapped in a package
 - Nodes can communicate each other through `topics`, `services`, and `parameters`
+- Running a node using `ros2 run` command
+    ```
+    ros2 run package_name executable_node_name
+    ```
+    For example (running the `py_node` node in `my_python_pkg` package):
+    ```
+    ros2 run my_python_pkg py_node
+    ```

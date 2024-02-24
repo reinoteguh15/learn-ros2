@@ -1,0 +1,35 @@
+[1.433s] Invoking command in '/home/reino/Programming/ROS2/learn-ros2/ros2_ws/src/my_python_pkg': PYTHONPATH=/home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/prefix_override:/home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/build install --record /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed
+[1.776s] running egg_info
+[1.776s] creating ../../build/my_python_pkg/my_python_pkg.egg-info
+[1.777s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[1.777s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[1.778s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[1.778s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[1.778s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[1.778s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[1.781s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[1.782s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[1.782s] running build
+[1.782s] running build_py
+[1.782s] creating /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/build
+[1.783s] creating /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/build/lib
+[1.783s] creating /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg
+[1.783s] copying my_python_pkg/__init__.py -> /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg
+[1.783s] running install
+[1.862s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.863s]   warnings.warn(
+[1.863s] running install_lib
+[1.865s] creating /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg
+[1.865s] copying /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg/__init__.py -> /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg
+[1.866s] byte-compiling /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg/__init__.py to __init__.cpython-310.pyc
+[1.866s] running install_data
+[1.867s] creating /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/share/ament_index
+[1.868s] creating /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/share/ament_index/resource_index
+[1.868s] creating /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/share/ament_index/resource_index/packages
+[1.869s] copying resource/my_python_pkg -> /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/share/ament_index/resource_index/packages
+[1.869s] copying package.xml -> /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/share/my_python_pkg
+[1.869s] running install_egg_info
+[1.872s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info
+[1.874s] running install_scripts
+[1.898s] writing list of installed files to '/home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/install.log'
+[1.938s] Invoked command in '/home/reino/Programming/ROS2/learn-ros2/ros2_ws/src/my_python_pkg' returned '0': PYTHONPATH=/home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/prefix_override:/home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/build install --record /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed

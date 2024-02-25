@@ -44,3 +44,7 @@ Documentation of learning ROS2 with the distro Humble
     ```
     ros2 run my_python_pkg py_node
     ```
+- Rename node at runtime (safe way to launch same node multiple times) using `--ros-args`
+    ```
+    ros2 run my_python_pkg py_node --ros-args --remap __node:=new_py_node
+    ```

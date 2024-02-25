@@ -16,8 +16,7 @@ public:
 private:
     int counter_;
     rclcpp::TimerBase::SharedPtr timer_;
-    v
-    oid timerCallback()
+    void timerCallback()
     {
         counter_++;
         RCLCPP_INFO(this->get_logger(), "Hello %d", counter_);

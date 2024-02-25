@@ -1,0 +1,26 @@
+[0.172s] Invoking command in '/home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.746s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.817s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_cpp_node.cpp.o[0m
+[6.027s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[6.944s] [100%] Built target cpp_node
+[6.965s] Invoked command in '/home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[7.032s] Invoking command in '/home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_cpp_pkg
+[7.080s] -- Install configuration: ""
+[7.139s] -- Installing: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[7.140s] -- Set runtime path of "/home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[7.141s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[7.141s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[7.141s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[7.141s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[7.142s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[7.142s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[7.142s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[7.142s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[7.143s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[7.143s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[7.143s] -- Installing: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[7.148s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[7.148s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[7.148s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[7.148s] -- Up-to-date: /home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[7.154s] Invoked command in '/home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/reino/Programming/ROS2/learn-ros2/ros2_ws/install/my_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/reino/Programming/ROS2/learn-ros2/ros2_ws/build/my_cpp_pkg

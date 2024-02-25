@@ -48,3 +48,7 @@ Documentation of learning ROS2 with the distro Humble
     ```
     ros2 run my_python_pkg py_node --ros-args --remap __node:=new_py_node
     ```
+## Topic
+- A named bus over which nodes exchange messages
+- Often used when a data stream is needed, especially unidirectional data stream (publisher/subscriber)
+- Has a message type that must be the same for publishers and subscribers to communicate within the topic

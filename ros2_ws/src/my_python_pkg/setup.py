@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "py_node = my_python_pkg.my_first_python_node:main",
-            "robot_news_station = my_python_pkg.robot_news_station:main"
+            "robot_news_station = my_python_pkg.robot_news_station:main",
+            "smartphone = my_python_pkg.smartphone:main"
         ],
     },
 )

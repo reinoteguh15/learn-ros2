@@ -52,3 +52,12 @@ Documentation of learning ROS2 with the distro Humble
 - A named bus over which nodes exchange messages
 - Often used when a data stream is needed, especially unidirectional data stream (publisher/subscriber)
 - Has a message type that must be the same for publishers and subscribers to communicate within the topic
+- Rename topic at runtime (topic remapping)
+    ```
+    ros2 run package_name executable_name --ros-args -r topic_name:=new_topic_name
+    ```
+  For example:
+    ```
+    ros2 run my_python_pkg robot_news_station --ros-args -r robot_news:=news_station
+    ```
+  ⚠️ Don't forget to also remap the topic name on subscriber

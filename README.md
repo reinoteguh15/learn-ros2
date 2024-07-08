@@ -61,3 +61,9 @@ Documentation of learning ROS2 with the distro Humble
     ros2 run my_python_pkg robot_news_station --ros-args -r robot_news:=news_station
     ```
   ⚠️ Don't forget to also remap the topic name on subscriber
+
+## Services
+- Client/server system
+- Can be either synchronous or asynchronous
+- Defined as a name and a pair of messages (1 message type for Request, 1 message type of Response)
+- Service server can only exist once but can have many clients

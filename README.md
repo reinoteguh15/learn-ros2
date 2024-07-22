@@ -67,3 +67,23 @@ Documentation of learning ROS2 with the distro Humble
 - Can be either synchronous or asynchronous
 - Defined as a name and a pair of messages (1 message type for Request, 1 message type of Response)
 - Service server can only exist once but can have many clients
+- Initializing a service:
+    ```python
+    from rclpy.node import Node
+    
+    node = Node("node_name")
+    server = node.create_service(srv_type, srv_name, callback)
+    ```
+- Initializing a service client:
+    ```python
+    from rclpy.node import Node
+
+    node = Node("node_name")
+    client = node.create_client(srv_type, srv_name)
+
+    # request = ....
+
+    future = client.call_async(request)
+    rclpy.spin_until_future_complete(node, future)
+
+    ```

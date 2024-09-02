@@ -87,3 +87,11 @@ Documentation of learning ROS2 with the distro Humble
     rclpy.spin_until_future_complete(node, future)
 
     ```
+- Remap a service at runtime
+    ```
+    ros2 run package_name executable_name --ros-args -r service_name:=new_service_name
+    ```
+  For example:
+    ```
+    ros2 run my_cpp_pkg add_two_ints_server --ros-args -r add_two_ints:=new_name
+    ```

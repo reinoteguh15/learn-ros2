@@ -2,6 +2,8 @@ devel/
 logs/
 ros2_ws/install/
 build/
+install/
+log/
 bin/
 lib/
 msg_gen/

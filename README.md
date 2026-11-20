@@ -95,3 +95,23 @@ Documentation of learning ROS2 with the distro Humble
     ```
     ros2 run my_cpp_pkg add_two_ints_server --ros-args -r add_two_ints:=new_name
     ```
+
+## Interfaces
+- Define the data structures and communication contracts
+- Used by nodes to exchange information accross topics, services, and actions
+- Use **Interface Definition Language (IDL)** files such as `.msg`, `.srv`, and `.action` to generate source code accross supported languages
+- In topics:
+    ```
+    {
+        name, --> ex: /number_count
+        msg_definition --> ex: example_interfaces/msg/Int64
+    }
+    ```
+- In services:
+    ```
+    {
+        name, --> ex: /reset_number_count
+        srv_definition --> ex: example_interfaces/srv/SetBool
+    }
+    ```
+- Topics and Services act as the **communication layer tool**, Interfaces is the **actual content** being sent

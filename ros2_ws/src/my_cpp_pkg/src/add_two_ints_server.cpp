@@ -23,7 +23,7 @@ private:
         const example_interfaces::srv::AddTwoInts::Response::SharedPtr response
     ) {
         response->sum = request->a + request->b;
-        RCLCPP_INFO(this->get_logger(), "%d + %d = %d", request->a, request->b, response->sum);
+        RCLCPP_INFO(this->get_logger(), "%ld + %ld = %ld", request->a, request->b, response->sum);
     }
 }; 
 

@@ -29,6 +29,8 @@ setup(
             "add_two_ints_client = my_python_pkg.add_two_ints_client:main",
             "add_two_ints_client_no_oop = my_python_pkg.add_two_ints_client_no_oop:main",
             "hardware_status_publisher = my_python_pkg.hardware_status_publisher:main",
+            "led_panel = my_python_pkg.led_panel:main",
+            "battery = my_python_pkg.battery:main"
         ],
     },
 )

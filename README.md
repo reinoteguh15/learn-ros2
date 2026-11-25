@@ -115,3 +115,79 @@ Documentation of learning ROS2 with the distro Humble
     }
     ```
 - Topics and Services act as the **communication layer tool**, Interfaces is the **actual content** being sent
+### Create a custom interface:
+  1. Create a new package only for `msg` and `srv` definitions (for example: `my_robot_interfaces`). T
+    ```bash
+    ros2 pkg create my_robot_interfaces 
+    ```
+  2. Remove the `include/` and `src/` folders, then add `msg/` or `srv/` folder. The structure will look like this
+  ```
+  my_robot_interfaces/
+  ├── msg/
+  |    ├── MessageInterface1.msg
+  |    └── MessageInterface2.msg
+  ├── srv/
+  |    ├── ServiceInterface1.srv
+  |    └── ServiceInterface2.srv
+  ├── CMakeLists.txt
+  └── package.xml
+  ```
+
+  3. Setup the package - `CMakeLists.txt` and `package.xml`
+      - for `CMakeLists.txt` add this line
+        ```
+        find_package(rosidl_default_generators REQUIRED)
+        
+        rosidl_generate_interfaces(${PROJECT_NAME}
+            "msg/MessageInterface1.msg"
+            "msg/MessageInterface2.msg"
+            "srv/ServiceInterface1.srv"
+            "srv/ServiceInterface2.srv"
+        )
+        
+        ament_export_dependencies(rosidl_default_runtime)
+        ```
+        
+      - for `package.xml` add this line
+        ```
+        <buildtool_depend>rosidl_default_generators</buildtool_depend>
+        <exec_depend>rosidl_default_runtime</exec_depend>
+        <member_of_group>rosidl_interface_packages</member_of_group>
+        ```
+
+  4. Use the custom message interface in code:
+      - python
+        - import library
+          ```
+          from my_robot_interfaces.msg import MessageInterface1
+          ```
+        - add in `package.xml`
+          ```
+          <depend>my_robot_interfaces</depend>
+          ```
+
+      - cpp
+        - import library
+          ```
+          #include "my_robot_interfaces/msg/MessageInterface2.hpp"
+          ```
+        - add in `package.xml`
+          ```
+          <depend>my_robot_interfaces</depend>
+          ```
+        - add in `CMakeLists.txt`
+          ```
+          find_package(my_robot_interfaces REQUIRED)
+          ```
+  5. Use the custom service interface in code:
+      - python
+        - import library
+          ```
+          from my_robot_interfaces.srv import ServiceInterface1
+          ```
+
+      - cpp
+        - import library
+          ```
+          #include "my_robot_interfaces/srv/ServiceInterface2.hpp"
+          ```
